@@ -83,7 +83,7 @@ int main() {
 		}
 		//Check if there is leftover
 		if(trade.quantity){
-			if(trade.quantity-initial) cout << "  Partial Execution" << endl;
+			if(trade.quantity-initial) cout << "  Partial Execution: " << trade.quantity << " shares remaining" << endl;
 			else cout << "  Trade Unexecuted" << endl;
 			
 			if(trade.buy) bids.push(trade);
