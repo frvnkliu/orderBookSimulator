@@ -1,5 +1,5 @@
 ## Order Book Simulator
-Simulates an Order Book for a single Stock. Prints the actions/results of each trade, as well as the final state of the order book at the end of input.
+Single stock order book simulator. Prints the actions/results of each trade, as well as the final state of the order book at the end of input.
 * Created using 2 Priority Queues
 * A self defined `Trade` struct
 * 2 Custom Comparator Functions
